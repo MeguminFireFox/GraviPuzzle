@@ -12,8 +12,9 @@ public class Win1 : MonoBehaviour
 
     private Verif1 verif1;
     private Verif2 verif2;
-    private Verif3 verif3; //  envie de gerber
+    private Verif3 verif3;
     private Verif4 verif4;
+    private float _time = 0;
 
     void FixedUpdate()
     {
@@ -66,8 +67,13 @@ public class Win1 : MonoBehaviour
                 {
                     if (_piece4 == true)
                     {
-                        Panel.SetActive(true);
-                        Time.timeScale = 0;
+                        _time += Time.deltaTime;
+
+                        if (_time >= 1)
+                        {
+                            Panel.SetActive(true);
+                            Time.timeScale = 0;
+                        }
                     }
                 }
             }

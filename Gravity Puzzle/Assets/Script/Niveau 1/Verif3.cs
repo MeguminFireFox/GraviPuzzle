@@ -15,9 +15,9 @@ public class Verif3 : MonoBehaviour
         Vector3 globalPosition = transform.position;
         Vector3 globalRotation = transform.eulerAngles;
 
-        if (globalPosition.x >= 0.4 && globalPosition.x <= 0.8)
+        if (globalPosition.x >= 0.3 && globalPosition.x <= 0.9)
         {
-            if (globalPosition.y >= -4.7 && globalPosition.y <= -4.3)
+            if (globalPosition.y >= -4.8 && globalPosition.y <= -4.2)
             {
                 if ((globalRotation.z <= -170 && globalRotation.z >= -190) || (globalRotation.z >= 170 && globalRotation.z <= 190))
                 {
@@ -47,9 +47,9 @@ public class Verif3 : MonoBehaviour
         Vector3 globalPosition = transform.position;
         Vector3 globalRotation = transform.eulerAngles;
 
-        if (globalPosition.x >= 0.4 && globalPosition.x <= 0.8)
+        if (globalPosition.x >= 0.3 && globalPosition.x <= 0.9)
         {
-            if (globalPosition.y >= -3.7 && globalPosition.y <= -3.3)
+            if (globalPosition.y >= -3.8 && globalPosition.y <= -3.2)
             {
                 if ((globalRotation.z <= -80 && globalRotation.z >= -100) || (globalRotation.z >= 260 && globalRotation.z <= 280))
                 {
@@ -79,9 +79,9 @@ public class Verif3 : MonoBehaviour
         Vector3 globalPosition = transform.position;
         Vector3 globalRotation = transform.eulerAngles;
 
-        if (globalPosition.x <= -0.4 && globalPosition.x >= -0.8)
+        if (globalPosition.x <= -0.3 && globalPosition.x >= -0.9)
         {
-            if (globalPosition.y >= -3.7 && globalPosition.y <= -3.3)
+            if (globalPosition.y >= -3.8 && globalPosition.y <= -3.2)
             {
                 if (globalRotation.z >= -10 && globalRotation.z <= 10)
                 {
@@ -111,9 +111,9 @@ public class Verif3 : MonoBehaviour
         Vector3 globalPosition = transform.position;
         Vector3 globalRotation = transform.eulerAngles;
 
-        if (globalPosition.x <= -0.4 && globalPosition.x >= -0.8)
+        if (globalPosition.x <= -0.3 && globalPosition.x >= -0.9)
         {
-            if (globalPosition.y >= -4.7 && globalPosition.y <= -4.3)
+            if (globalPosition.y >= -4.8 && globalPosition.y <= -4.2)
             {
                 if (globalRotation.z >= 80 && globalRotation.z <= 100)
                 {

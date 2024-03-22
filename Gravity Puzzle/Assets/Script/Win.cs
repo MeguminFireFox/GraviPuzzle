@@ -11,7 +11,7 @@ public class Win : MonoBehaviour
 
     private bool _cbon;
 
-    void Update()
+    void FixedUpdate()
     {
         if (Puzzle4 == true)
         {
@@ -59,8 +59,6 @@ public class Win : MonoBehaviour
         {
             _cbon = true;
         }
-
-        OnTrois();
     }
 
     void OnTrois()

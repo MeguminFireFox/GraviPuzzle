@@ -8,6 +8,11 @@ public class Verif21 : MonoBehaviour
     public Vector3 Big;
     public bool P1 = false;
 
+    void Start()
+    {
+        Time.timeScale = 1;
+    }
+
     void FixedUpdate()
     {
         Vector3 globalPosition = transform.position;

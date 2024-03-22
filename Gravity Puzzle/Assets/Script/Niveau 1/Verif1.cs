@@ -10,6 +10,11 @@ public class Verif1 : MonoBehaviour
     public bool _pieces13 = false;
     public bool _pieces14 = false;
 
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
+
     void FixedUpdate()
     {
         Vector3 globalPosition = transform.position;

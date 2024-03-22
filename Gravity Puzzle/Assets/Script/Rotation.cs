@@ -7,7 +7,7 @@ public class Rotation : MonoBehaviour
     public float Speed;
     public Vector3 rotatiodirection = new Vector3();
 
-    void Update()
+    void FixedUpdate()
     {
         transform.Rotate(Speed * rotatiodirection * Time.deltaTime);
     }
